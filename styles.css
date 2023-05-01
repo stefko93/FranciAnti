@@ -13,7 +13,7 @@ body {
 }
 
 .img-rings {
-    background-image: url("../assets/ring.jpg");
+    background-image: url("./assets/ring.jpg");
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
