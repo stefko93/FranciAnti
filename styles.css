@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: cornsilk;
+    background-color: rgb(243, 247, 238);
     font-family: 'Tangerine', cursive;
     font-size: 35px;
 }
@@ -41,6 +41,8 @@ main {
     text-align: center;
 }
 
+
+
 .save {
     padding:20px;
     margin:20px;
@@ -48,7 +50,6 @@ main {
 
 .invite {
     padding:20px;
-    margin:15px;
 }
 
 .counter {
@@ -58,11 +59,20 @@ main {
 
 .pictures {
     display: flex;
+    opacity: 1;
 }
+
 .column {
     float: left;
     flex: 50%;
     padding: 5px;
+}
+.container {
+    background-image: url("./assets/invite3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
 }
 
 .footer{
