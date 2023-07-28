@@ -10,6 +10,7 @@ body {
     background-color: rgb(243, 247, 238);
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 35px;
+    align-items: center;
 }
 
 h1, h2{
@@ -37,15 +38,14 @@ h2.names {
     color: #f2f2f2;
     text-align: center;
     align-items: center;
-    font-size: 100px;
+    font-size: 80px;
     margin-top: 70px;
 }
 
 main {
     text-align: center;
+    align-items: center;
 }
-
-
 
 .save {
     padding:20px;
@@ -71,12 +71,25 @@ main {
     flex: 50%;
     padding: 5px;
 }
+
 .container {
     background-image: url("./assets/invite3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
+}
+
+.prog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapouter{
+    width: 300px!important;
+
 }
 
 .footer{
@@ -86,3 +99,5 @@ main {
 .footer h7 {
     font-size: 20px;
 }
+
+
