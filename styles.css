@@ -88,6 +88,7 @@ main {
 }
 
 .mapouter{
+    position: relative;
     width: 300px!important;
 
 }
